@@ -14,7 +14,7 @@ const CTFsPage = () => {
       </div>
 
       <header className='relative z-10 p-6 border-b border-border'>
-        <h1 className='text-2xl font-mono font-bold'>Capture The Flags</h1>
+        <h1 className='text-2xl font-mono font-bold'>Capture The Flag</h1>
         <p className='text-gray-400 text-sm'>
           short excercises amd emulations for beginners to practice hacks
         </p>

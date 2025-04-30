@@ -23,7 +23,7 @@ const ResourcesPage = () => {
       </div>
 
       <header className='relative z-10 p-6 border-b border-border'>
-        <h1 className='text-2xl font-mono font-bold'>resources</h1>
+        <h1 className='text-2xl font-mono font-bold'>Resources</h1>
         <p className='text-gray-400 text-sm'>
           Security guides and best practices
         </p>

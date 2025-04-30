@@ -14,6 +14,8 @@ contributors:
     url: https://x.com/prastutkumar
   - username: 0xDeep
     url: https://x.com/0xDeep
+  - username: Mira
+    url: https://x.com/4k_mira
 ---
 
 Raydium - an AMM based DEX utilizing limit order book to enable trades - got hacked for $4M as hacker was able to get access to private keys for pool owner account.

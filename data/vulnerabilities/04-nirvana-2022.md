@@ -14,6 +14,8 @@ contributors:
     url: https://x.com/prastutkumar
   - username: 0xDeep
     url: https://x.com/0xDeep
+  - username: Mira
+    url: https://x.com/4k_mira
 ---
 
 Nirvana vision is to build an investment protocol for a sustainable store of wealth.

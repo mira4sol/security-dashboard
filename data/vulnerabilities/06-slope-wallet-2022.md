@@ -14,6 +14,8 @@ contributors:
     url: https://x.com/prastutkumar
   - username: 0xDeep
     url: https://x.com/0xDeep
+  - username: Mira
+    url: https://x.com/4k_mira
 ---
 
 On 2nd August 2022 around 11 PM UTC, Solana users started noticing that funds were disappearing from their wallets and took to Twitter to alert the community about the same:

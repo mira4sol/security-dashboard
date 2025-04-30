@@ -132,7 +132,7 @@ const HomePage = () => {
 
       <header className='relative z-10 p-6 border-b border-border flex justify-between items-center'>
         <div>
-          <h1 className='text-2xl font-mono font-bold'>solana exploits</h1>
+          <h1 className='text-2xl font-mono font-bold'>Solana Exploits</h1>
           <p className='text-gray-400 text-sm'>for security nerds</p>
         </div>
 
@@ -263,7 +263,7 @@ const HomePage = () => {
               </div>
 
               {vulnerabilities && vulnerabilities.length > 0 ? (
-                <div className='space-y-4'>
+                <div className='flex flex-col space-y-4'>
                   {vulnerabilities
                     .sort(
                       (a, b) =>

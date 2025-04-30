@@ -18,8 +18,10 @@ export const vulnerabilityProtocolTypes = [
   'AMM',
   'Yield Farming',
   'NFT Marketplace',
+  'Supply Chain',
   'Wallet',
   'Oracle',
+  'Game',
   'Other',
 ] as const
 

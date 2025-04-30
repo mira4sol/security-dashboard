@@ -14,6 +14,8 @@ contributors:
     url: https://x.com/prastutkumar
   - username: 0xDeep
     url: https://x.com/0xDeep
+  - username: Mira
+    url: https://x.com/4k_mira
 ---
 
 Wormhole - an interoperability protocol that allows transferring assets between different blockchains - got exploited for a whopping $325 million!

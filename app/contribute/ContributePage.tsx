@@ -21,7 +21,7 @@ const ContributePage = () => {
       </div>
 
       <header className='relative z-10 p-6 border-b border-border'>
-        <h1 className='text-2xl font-mono font-bold'>contribute</h1>
+        <h1 className='text-2xl font-mono font-bold'>Contribute</h1>
         <p className='text-gray-400 text-sm'>
           Help improve Solana ecosystem security
         </p>

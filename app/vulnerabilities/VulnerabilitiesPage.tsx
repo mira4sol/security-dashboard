@@ -99,7 +99,7 @@ const VulnerabilitiesPage = () => {
 
       <header className='relative z-10 p-6 border-b border-border flex justify-between items-center'>
         <div>
-          <h1 className='text-2xl font-mono font-bold'>solana exploits</h1>
+          <h1 className='text-2xl font-mono font-bold'>Solana Exploits</h1>
           <p className='text-gray-400 text-sm'>for security nerds</p>
         </div>
 

@@ -4,7 +4,7 @@ import { Providers } from '../contexts/Providers'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Superteam Security Dashboard',
+  title: 'SuperSec',
   description:
     "Explore Solana security incidents, vulnerabilities and hacks. Learn from past exploits and strengthen your protocol's security.",
   keywords: [
