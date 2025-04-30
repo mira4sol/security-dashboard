@@ -1,9 +1,10 @@
 import VulnerabilitiesDetailsPage from './VulnerabilityDetailPage'
 
-export default function VulnerabilityDetail({
+export default async function VulnerabilityDetail({
   params,
 }: {
-  params: { id: string }
+  params: Promise<{ id: string }>
 }) {
-  return <VulnerabilitiesDetailsPage id={parseInt(params.id)} />
+  const id = (await params).id
+  return <VulnerabilitiesDetailsPage id={parseInt(id)} />
 }

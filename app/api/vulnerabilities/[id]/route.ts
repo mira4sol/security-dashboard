@@ -1,19 +1,20 @@
 import { getVulnerabilityById } from '@/lib/markdown.util'
-import { NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server'
 
-export const GET = async (
-  req: Request,
-  { params }: { params: { id: string } }
-) => {
+export async function GET(
+  req: Request | NextRequest,
+  { params }: { params: Promise<{ id: string }> }
+) {
   try {
-    if (!params.id)
+    const { id } = await params
+    if (!id)
       return NextResponse.json(
         { error: 'Param "id" is missing' },
         { status: 500 }
       )
 
-    const vulnerabilities = await getVulnerabilityById(parseInt(params.id))
-    return NextResponse.json(vulnerabilities)
+    const vulnerability = await getVulnerabilityById(parseInt(id))
+    return NextResponse.json(vulnerability)
   } catch (error) {
     return NextResponse.json(
       { error: 'Failed to load vulnerabilities' },
