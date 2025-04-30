@@ -65,7 +65,7 @@ You can fetch vulnerability data from the following API endpoints. All endpoints
 
 **Example:**
 ```bash
-curl https://your-domain.com/api/vulnerabilities
+curl https://superteam-security.vercel.app/api/vulnerabilities
 ```
 
 **Response:**
@@ -90,7 +90,7 @@ curl https://your-domain.com/api/vulnerabilities
 
 **Example:**
 ```bash
-curl https://your-domain.com/api/stats
+curl https://superteam-security.vercel.app/api/stats
 ```
 
 **Response:**
@@ -115,7 +115,7 @@ Replace `[id]` with the numeric ID of the vulnerability.
 
 **Example:**
 ```bash
-curl https://your-domain.com/api/vulnerabilities/3
+curl https://superteam-security.vercel.app/api/vulnerabilities/3
 ```
 
 **Response:**
@@ -142,8 +142,8 @@ curl https://your-domain.com/api/vulnerabilities/3
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/mira4sol/superteam-security
-cd superteam-security-dashboard
+git clone https://github.com/mira4sol/security-dashboard
+cd security-dashboard
 ```
 
 2. Install dependencies:
@@ -160,7 +160,7 @@ npm run dev
 yarn dev
 ```
 
-The application should now be running at `http://localhost:5173`
+The application should now be running at `http://localhost:3000`
 
 ### Build for Production
 
@@ -263,7 +263,7 @@ superteam-security/
 
 - Join our [Discord](https://discord.gg/superteam)
 - Follow us on [Twitter](https://twitter.com/superteam)
-- Create [GitHub Issues](https://github.com/mira4sol/superteam-security/issues)
+- Create [GitHub Issues](https://github.com/mira4sol/security-dashboard/issues)
 
 ## License
 
