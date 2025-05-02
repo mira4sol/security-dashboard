@@ -146,14 +146,19 @@ git clone https://github.com/mira4sol/security-dashboard
 cd security-dashboard
 ```
 
-2. Install dependencies:
+3. Setup .env:
+```env
+GOOGLE_API_KEY=<your api key> # use by superteam security intelligence
+```
+
+3. Install dependencies:
 ```bash
 npm install
 # or
 yarn install
 ```
 
-3. Start the development server:
+4. Start the development server:
 ```bash
 npm run dev
 # or

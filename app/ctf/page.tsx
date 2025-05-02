@@ -1,5 +1,10 @@
+import AppLayout from '@/components/layout/AppLayout'
 import CTFsPage from './CTFsPage'
 
 export default function Resource() {
-  return <CTFsPage />
+  return (
+    <AppLayout>
+      <CTFsPage />
+    </AppLayout>
+  )
 }

@@ -1,4 +1,3 @@
-import AppLayout from '@/components/layout/AppLayout'
 import type { Metadata } from 'next'
 import { Providers } from '../contexts/Providers'
 import './globals.css'
@@ -66,9 +65,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`antialiased`}>
-        <Providers>
-          <AppLayout>{children}</AppLayout>
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   )

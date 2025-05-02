@@ -1,5 +1,10 @@
+import AppLayout from '@/components/layout/AppLayout'
 import AnalyticsPage from './AnalyticsPage'
 
 export default function Analytics() {
-  return <AnalyticsPage />
+  return (
+    <AppLayout>
+      <AnalyticsPage />
+    </AppLayout>
+  )
 }

@@ -2,7 +2,7 @@
 
 import { APP } from '@/lib/constants/app.constant'
 import { cn } from '@/lib/utils'
-import { Github } from 'lucide-react'
+import { Bot, Github, Sparkles } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import {
@@ -12,6 +12,7 @@ import {
   RiFlagLine,
   RiGitBranchLine,
   RiLineChartLine,
+  RiRobot2Line,
 } from 'react-icons/ri'
 
 const Sidebar = () => {
@@ -31,6 +32,7 @@ const Sidebar = () => {
     { path: '/resources', label: 'Resources', icon: RiBook2Line },
     // { path: '/ctf', label: 'CTFs', icon: 'ri-flag-line' },
     { path: '/ctf', label: 'CTFs', icon: RiFlagLine },
+    { path: '/ai', label: 'SuperSec Ai', icon: RiRobot2Line },
   ]
 
   return (
@@ -65,6 +67,41 @@ const Sidebar = () => {
             </li>
           ))}
         </ul>
+
+        {/* SuperSec AI */}
+        <Link
+          href={'/ai'}
+          target='_blank'
+          className='mt-4 mx-4 mb-2 relative cursor-pointer'
+        >
+          {/* Glow effect */}
+          <div className='absolute inset-0 bg-emerald-500 rounded-lg opacity-20 blur-sm'></div>
+
+          {/* Card */}
+          <div
+            className={`
+            p-4 rounded-lg border border-emerald-600 bg-gradient-to-br from-gray-800 to-gray-900 ring-2 ring-emerald-500 ring-opacity-50 hover:border-emerald-500 transition-all duration-200
+          `}
+          >
+            <div className='flex items-center justify-between mb-1'>
+              <div className='flex items-center space-x-2'>
+                <Bot size={22} className='text-emerald-400' />
+                <span className='text-lg font-bold text-white'>
+                  SuperSec AI
+                </span>
+              </div>
+              <Sparkles size={16} className='text-emerald-400' />
+            </div>
+
+            <div className='mt-2 flex items-center space-x-2'>
+              <div className='h-2 w-2 bg-emerald-500 rounded-full animate-pulse'></div>
+              <span className='text-xs text-emerald-400'>
+                Intelligent Analysis
+              </span>
+            </div>
+          </div>
+        </Link>
+        {/* End of SuperSec AI */}
       </nav>
 
       <div className='p-4 border-t border-sidebar-border'>
