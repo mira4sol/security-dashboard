@@ -95,7 +95,7 @@ const ResourcesPage = () => {
                     Solana ecosystem, including templates and procedures.
                   </p>
                   <a
-                    href='https://solana.com/developers'
+                    href='https://solana.com/developers/courses/program-security'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
@@ -124,7 +124,7 @@ const ResourcesPage = () => {
                     including key management and phishing prevention.
                   </p>
                   <a
-                    href='https://solana.com/ecosystem'
+                    href='https://community.magiceden.io/learn/the-solana-security-playbook'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
@@ -482,6 +482,17 @@ function calculateLTV(asset, price) {
                           className='text-sm text-secondary hover:underline'
                         >
                           Solana Documentation
+                        </a>
+                      </li>
+                      <li className='flex items-start gap-2'>
+                        <span className='text-primary'>•</span>
+                        <a
+                          href='https://solana.com/developers/courses/program-security'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          className='text-sm text-secondary hover:underline'
+                        >
+                          Solana Program Security
                         </a>
                       </li>
                       <li className='flex items-start gap-2'>

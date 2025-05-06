@@ -12,7 +12,6 @@ import {
   RiFlagLine,
   RiGitBranchLine,
   RiLineChartLine,
-  RiRobot2Line,
 } from 'react-icons/ri'
 
 const Sidebar = () => {
@@ -32,7 +31,7 @@ const Sidebar = () => {
     { path: '/resources', label: 'Resources', icon: RiBook2Line },
     // { path: '/ctf', label: 'CTFs', icon: 'ri-flag-line' },
     { path: '/ctf', label: 'CTFs', icon: RiFlagLine },
-    { path: '/ai', label: 'SuperSec Ai', icon: RiRobot2Line },
+    // { path: '/ai', label: 'SuperSec Ai', icon: RiRobot2Line },
   ]
 
   return (
